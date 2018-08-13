@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5374799644F7714F73A79058 /* Pods_SportCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF302339D2FA55D8405787F /* Pods_SportCalendar.framework */; };
 		724F2173211E9E1900241F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F2172211E9E1900241F6E /* AppDelegate.swift */; };
 		724F2175211E9E1900241F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F2174211E9E1900241F6E /* ViewController.swift */; };
 		724F2178211E9E1900241F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724F2176211E9E1900241F6E /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15F8591236D4CC7AADA97CA3 /* Pods-SportCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportCalendar/Pods-SportCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		4DF302339D2FA55D8405787F /* Pods_SportCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		724F216F211E9E1900241F6E /* SportCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		724F2172211E9E1900241F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		724F2174211E9E1900241F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		724F2179211E9E1A00241F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		724F217C211E9E1A00241F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		724F217E211E9E1A00241F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7917F74A21ED1CAA393EC7 /* Pods-SportCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportCalendar/Pods-SportCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5374799644F7714F73A79058 /* Pods_SportCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				724F2171211E9E1900241F6E /* SportCalendar */,
 				724F2170211E9E1900241F6E /* Products */,
+				F3EB1863C6A08C3CC132F945 /* Pods */,
+				BC8D4E3F6817AE1888601481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = SportCalendar;
 			sourceTree = "<group>";
 		};
+		BC8D4E3F6817AE1888601481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF302339D2FA55D8405787F /* Pods_SportCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3EB1863C6A08C3CC132F945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7917F74A21ED1CAA393EC7 /* Pods-SportCalendar.debug.xcconfig */,
+				15F8591236D4CC7AADA97CA3 /* Pods-SportCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 724F2181211E9E1A00241F6E /* Build configuration list for PBXNativeTarget "SportCalendar" */;
 			buildPhases = (
+				217B130B7EEE8903C5D42AA6 /* [CP] Check Pods Manifest.lock */,
 				724F216B211E9E1900241F6E /* Sources */,
 				724F216C211E9E1900241F6E /* Frameworks */,
 				724F216D211E9E1900241F6E /* Resources */,
+				53DD4E808B27D104AC4463A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		217B130B7EEE8903C5D42AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53DD4E808B27D104AC4463A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SportCalendar/Pods-SportCalendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportCalendar/Pods-SportCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		724F216B211E9E1900241F6E /* Sources */ = {
@@ -278,16 +345,14 @@
 		};
 		724F2182211E9E1A00241F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7917F74A21ED1CAA393EC7 /* Pods-SportCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBFTV358QM;
 				INFOPLIST_FILE = SportCalendar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soohan.SportCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -297,16 +362,14 @@
 		};
 		724F2183211E9E1A00241F6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F8591236D4CC7AADA97CA3 /* Pods-SportCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZBFTV358QM;
 				INFOPLIST_FILE = SportCalendar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soohan.SportCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
