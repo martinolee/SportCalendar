@@ -1,0 +1,6 @@
+framework module Pods_SportCalendar {
+  umbrella header "Pods-SportCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
